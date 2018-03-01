@@ -1,0 +1,124 @@
+@import "mixins";
+@import "variables";
+
+#carouselControls{
+  @media all and (max-width: $max-sm) {
+    display: none;
+  }
+}
+
+.carousel {
+  .slider-title {
+    @include font-RobotoLight(28px, 30px);
+    margin: 20px 0;
+  }
+
+  .mini-carousel-container {
+    .carousel-item {
+      padding: 20px 0;
+    }
+  }
+
+  .carousel-inner {
+    width: auto;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 60px;
+    height: 60px;
+    top: calc(50% - 30px);
+    background: $light-color;
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    &:hover {
+      .carousel-control-icon {
+        color: $primery-color;
+      }
+    }
+
+    .carousel-control-icon {
+      color: $dark-grey;
+      font-size: 32px;
+    }
+  }
+}
+
+#miniCarouselControls{
+
+  @media all and (max-width: $min-md) {
+    display: block;
+  }
+
+  @media all and (min-width: $min-md) {
+    display: none;
+  }
+
+  .carousel-item {
+    padding: 0;
+  }
+
+  .card {
+    border: 1px solid $light-grey;
+    box-shadow: none;
+    padding: 0;
+
+    .card-title {
+      line-height: 1;
+    }
+
+    .card-body {
+      padding-top: 10px;
+    }
+
+    .courses-logo-block {
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+    }
+
+    .card-img-top {
+      height: 100px;
+    }
+
+    .course-img-block {
+      position: relative;
+    }
+
+    .course-price {
+      @include font-RobotoLight(12px, 12px);
+      color: $light-color;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 8px 10px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    .course-name {
+      @include font-RobotoLight(12px, 12px);
+      color: $dark-color;
+      font-weight: bold;
+    }
+
+    .school-location-block {
+      @include font-RobotoLight(9px, 10px);
+      color: $dark-grey;
+
+      .school-location-icon {
+        font-size: 14px;
+        padding-right: 7px;
+      }
+    }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
+

@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Piroll">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Taia Khranovska">
+    <title>Site</title>
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<header class="container-fluid">
+    <nav class="navbar">
+        <a class="navbar-brand long-logo" href="#">Site Logo</a>
+        <a class="navbar-brand shorted-logo" href="#">SL</a>
+        <form action="" class="navbar-form search-block" role="search">
+            <div class="dropdown city-select">
+                <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    <span><i class="fa fa-map-marker-alt" aria-hidden="true"></i></span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">City 1</a>
+                    <a class="dropdown-item" href="#">City 2</a>
+                    <a class="dropdown-item" href="#">City 3</a>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <button class="search-btn" type="submit">
+                    <i class="fa fa-search search-icon" aria-hidden="true"></i>
+                </button>
+            </div>
+        </form>
+        <ul class="nav navbar-right">
+            <li>
+                <a href="#" class="notifications">
+                    <span><i class="fas fa-bell"></i></span>
+                    <span class="notifications-amount rounded-circle">4</span>
+                </a>
+            </li>
+            <li><a href="#">
+                <div class="img-block">
+                    <img class="rounded-circle fit-img" src="img/user.png" alt="user photo">
+                </div>
+            </a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container-fluid banner"></div>
+<div class="container-fluid study">
+    <div class="container">
+        <div class="row">
+            <div class="main col-sm-12 col-md-9">
+                <div class="study_header">
+                    <span><i class="fab fa-envira"></i></span>
+                    <div class="study_title-block">
+                        <div class="study_title">Английский для детей</div>
+                        <div class="study_subtitle">Лучше раньше, чем никогда</div>
+                    </div>
+                </div>
+                <div class="study_info-block">
+                    <span><i class="fa fa-graduation-cap"></i></span>
+                    <input type="checkbox" class="read-more-state" id="post-1"/>
+                    <div class="read-more-wrap"><span class="article-title">В каком возрасте начать обучение?</span>
+                        <p class="read-more-target">До пяти лет дети обладают лингвистической гениальностью. Они
+                            способны
+                            запоминать 20-30 новых слов в день. Простая арифметика дает впечатляющий результат – 7-10
+                            тысяч
+                            слов в год. Да мы и в родном русском столько не используем, а что говорить об иностранном.
+                            Способности к языкам, безусловно, либо есть, либо нет. </p>
+                    </div>
+                    <label for="post-1" class="read-more-trigger"></label>
+                </div>
+                <div class="study_info-block">
+                    <span><i class="fa fa-graduation-cap"></i></span>
+                    <input type="checkbox" class="read-more-state" id="post-2"/>
+                    <div class="read-more-wrap"><span class="article-title">В каком возрасте начать обучение?</span>
+                        <p class="read-more-target">До пяти лет дети обладают лингвистической гениальностью. Они
+                            способны
+                            запоминать 20-30 новых слов в день. Простая арифметика дает впечатляющий результат – 7-10
+                            тысяч
+                            слов в год. Да мы и в родном русском столько не используем, а что говорить об иностранном.
+                            Способности к языкам, безусловно, либо есть, либо нет. </p>
+                    </div>
+                    <label for="post-2" class="read-more-trigger"></label>
+                </div>
+            </div>
+            <div class="sidebar col-sm-12 col-md-3">
+                <div class="study_title-block">
+                    <div class="study_title">Курсы</div>
+                    <div class="study_subtitle">Английский язык</div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="courses-logo-block rounded">
+                            <img src="img/courses-logo.png" alt="Logo of the course">
+                        </div>
+                        <span class="favorite"></span>
+                    </div>
+                    <img class="card-img-top fit-img" src="img/course.png"
+                         alt="Course photo, people are discussing something">
+                    <div class="card-body">
+                        <div class="card-title-block">
+                            <span class="checked-school-icon"><i class="fas fa-check-square"></i></span>
+                            <div class="card-title">
+                                <a href="#" class="school-name">Школа «Let's Speak»</a>
+                            </div>
+                        </div>
+                        <p class="card-text">Репетиторы носители языка главное наше преимущес...</p>
+                    </div>
+                    <div class="card-footer">
+                        <span><i class="fa fa-map-marker-alt"></i></span>
+                        <div class="school-location">
+                            <div class="school-location-country">Украина</div>
+                            <div class="school-location-city">Киев</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="carouselControls" class="carousel slide container" data-ride="carousel">
+    <div class="slider-title">Курсы английского в Киеве</div>
+    <div class="row">
+        <div class="col-12">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="courses-logo-block rounded">
+                                    <img src="img/courses-logo.png" alt="Logo of the course">
+                                </div>
+                                <span class="favorite"></span>
+                            </div>
+                            <img class="card-img-top" src="img/course.png"
+                                 alt="Course photo, people are discussing something">
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <span class="checked-school-icon"><i class="fas fa-check-square"></i></span>
+                                    <div class="card-title">
+                                        <a href="#" class="school-name">Школа «Let's Speak»</a>
+                                    </div>
+                                </div>
+                                <p class="card-text">Репетиторы носители языка главное наше преимущес...</p>
+                            </div>
+                            <div class="card-footer">
+                                <span><i class="fa fa-map-marker-alt"></i></span>
+                                <div class="school-location">
+                                    <div class="school-location-country">Украина</div>
+                                    <div class="school-location-city">Киев</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="courses-logo-block rounded">
+                                    <img src="img/courses-logo.png" alt="Logo of the course">
+                                </div>
+                                <span class="favorite"></span>
+                            </div>
+                            <img class="card-img-top" src="img/course.png"
+                                 alt="Course photo, people are discussing something">
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <span class="checked-school-icon"><i class="fas fa-check-square"></i></span>
+                                    <div class="card-title">
+                                        <a href="#" class="school-name">Школа «Let's Speak»</a>
+                                    </div>
+                                </div>
+                                <p class="card-text">Репетиторы носители языка главное наше преимущес...</p>
+                            </div>
+                            <div class="card-footer">
+                                <span><i class="fa fa-map-marker-alt"></i></span>
+                                <div class="school-location">
+                                    <div class="school-location-country">Украина</div>
+                                    <div class="school-location-city">Киев</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="courses-logo-block rounded">
+                                    <img src="img/courses-logo.png" alt="Logo of the course">
+                                </div>
+                                <span class="favorite"></span>
+                            </div>
+                            <img class="card-img-top" src="img/course.png"
+                                 alt="Course photo, people are discussing something">
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <span class="checked-school-icon"><i class="fas fa-check-square"></i></span>
+                                    <div class="card-title">
+                                        <a href="#" class="school-name">Школа «Let's Speak»</a>
+                                    </div>
+                                </div>
+                                <p class="card-text">Репетиторы носители языка главное наше преимущес...</p>
+                            </div>
+                            <div class="card-footer">
+                                <span><i class="fa fa-map-marker-alt"></i></span>
+                                <div class="school-location">
+                                    <div class="school-location-country">Украина</div>
+                                    <div class="school-location-city">Киев</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="courses-logo-block rounded">
+                                    <img src="img/courses-logo.png" alt="Logo of the course">
+                                </div>
+                                <span class="favorite"></span>
+                            </div>
+                            <img class="card-img-top" src="img/course.png"
+                                 alt="Course photo, people are discussing something">
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <span class="checked-school-icon"><i class="fas fa-check-square"></i></span>
+                                    <div class="card-title">
+                                        <a href="#" class="school-name">Школа «Let's Speak»</a>
+                                    </div>
+                                </div>
+                                <p class="card-text">Репетиторы носители языка главное наше преимущес...</p>
+                            </div>
+                            <div class="card-footer">
+                                <span><i class="fa fa-map-marker-alt"></i></span>
+                                <div class="school-location">
+                                    <div class="school-location-country">Украина</div>
+                                    <div class="school-location-city">Киев</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="courses-logo-block rounded">
+                                    <img src="img/courses-logo.png" alt="Logo of the course">
+                                </div>
+                                <span class="favorite"></span>
+                            </div>
+                            <img class="card-img-top" src="img/course.png"
+                                 alt="Course photo, people are discussing something">
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <span class="checked-school-icon"><i class="fas fa-check-square"></i></span>
+                                    <div class="card-title">
+                                        <a href="#" class="school-name">Школа «Let's Speak»</a>
+                                    </div>
+                                </div>
+                                <p class="card-text">Репетиторы носители языка главное наше преимущес...</p>
+                            </div>
+                            <div class="card-footer">
+                                <span><i class="fa fa-map-marker-alt"></i></span>
+                                <div class="school-location">
+                                    <div class="school-location-country">Украина</div>
+                                    <div class="school-location-city">Киев</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="courses-logo-block rounded">
+                                    <img src="img/courses-logo.png" alt="Logo of the course">
+                                </div>
+                                <span class="favorite"></span>
+                            </div>
+                            <img class="card-img-top" src="img/course.png"
+                                 alt="Course photo, people are discussing something">
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <span class="checked-school-icon"><i class="fas fa-check-square"></i></span>
+                                    <div class="card-title">
+                                        <a href="#" class="school-name">Школа «Let's Speak»</a>
+                                    </div>
+                                </div>
+                                <p class="card-text">Репетиторы носители языка главное наше преимущес...</p>
+                            </div>
+                            <div class="card-footer">
+                                <span><i class="fa fa-map-marker-alt"></i></span>
+                                <div class="school-location">
+                                    <div class="school-location-country">Украина</div>
+                                    <div class="school-location-city">Киев</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="courses-logo-block rounded">
+                                    <img src="img/courses-logo.png" alt="Logo of the course">
+                                </div>
+                                <span class="favorite"></span>
+                            </div>
+                            <img class="card-img-top" src="img/course.png"
+                                 alt="Course photo, people are discussing something">
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <span class="checked-school-icon"><i class="fas fa-check-square"></i></span>
+                                    <div class="card-title">
+                                        <a href="#" class="school-name">Школа «Let's Speak»</a>
+                                    </div>
+                                </div>
+                                <p class="card-text">Репетиторы носители языка главное наше преимущес...</p>
+                            </div>
+                            <div class="card-footer">
+                                <span><i class="fa fa-map-marker-alt"></i></span>
+                                <div class="school-location">
+                                    <div class="school-location-country">Украина</div>
+                                    <div class="school-location-city">Киев</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="courses-logo-block rounded">
+                                    <img src="img/courses-logo.png" alt="Logo of the course">
+                                </div>
+                                <span class="favorite"></span>
+                            </div>
+                            <img class="card-img-top" src="img/course.png"
+                                 alt="Course photo, people are discussing something">
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <span class="checked-school-icon"><i class="fas fa-check-square"></i></span>
+                                    <div class="card-title">
+                                        <a href="#" class="school-name">Школа «Let's Speak»</a>
+                                    </div>
+                                </div>
+                                <p class="card-text">Репетиторы носители языка главное наше преимущес...</p>
+                            </div>
+                            <div class="card-footer">
+                                <span><i class="fa fa-map-marker-alt"></i></span>
+                                <div class="school-location">
+                                    <div class="school-location-country">Украина</div>
+                                    <div class="school-location-city">Киев</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev rounded" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-icon"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+    </a>
+    <a class="carousel-control-next rounded" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-icon rounded"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+    </a>
+</div>
+
+<div id="miniCarouselControls" class="carousel slide container" data-ride="carousel">
+    <div class="slider-title">Курсы английского в Киеве</div>
+    <div class="row mini-carousel-container">
+        <div class="col-12">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="course-img-block">
+                                <div class="courses-logo-block">
+                                    <img src="img/courses-logo.png"  class="fit-img" alt="Logo of the course">
+                                </div>
+                                <img class="card-img-top" src="img/course.png"
+                                     alt="Course photo, people are discussing something">
+                                <span class="course-price">от 55 грн</span>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <div class="card-title">
+                                        <a href="#" class="course-name">Курсы английского в Киеве</a>
+                                    </div>
+                                </div>
+                                <div class="school-location-block">
+                                    <span class="school-location-icon"><i class="fa fa-map-marker-alt"></i></span>
+                                    <span class="school-location">Украина, Киев</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="course-img-block">
+                                <div class="courses-logo-block">
+                                    <img src="img/courses-logo.png"  class="fit-img" alt="Logo of the course">
+                                </div>
+                                <img class="card-img-top" src="img/course.png"
+                                     alt="Course photo, people are discussing something">
+                                <span class="course-price">от 55 грн</span>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <div class="card-title">
+                                        <a href="#" class="course-name">Курсы английского в Киеве</a>
+                                    </div>
+                                </div>
+                                <div class="school-location-block">
+                                    <span class="school-location-icon"><i class="fa fa-map-marker-alt"></i></span>
+                                    <span class="school-location">Украина, Киев</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="course-img-block">
+                                <div class="courses-logo-block">
+                                    <img src="img/courses-logo.png"  class="fit-img" alt="Logo of the course">
+                                </div>
+                                <img class="card-img-top" src="img/course.png"
+                                     alt="Course photo, people are discussing something">
+                                <span class="course-price">от 55 грн</span>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <div class="card-title">
+                                        <a href="#" class="course-name">Курсы английского в Киеве</a>
+                                    </div>
+                                </div>
+                                <div class="school-location-block">
+                                    <span class="school-location-icon"><i class="fa fa-map-marker-alt"></i></span>
+                                    <span class="school-location">Украина, Киев</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="course-img-block">
+                                <div class="courses-logo-block">
+                                    <img src="img/courses-logo.png"  class="fit-img" alt="Logo of the course">
+                                </div>
+                                <img class="card-img-top" src="img/course.png"
+                                     alt="Course photo, people are discussing something">
+                                <span class="course-price">от 55 грн</span>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-block">
+                                    <div class="card-title">
+                                        <a href="#" class="course-name">Курсы английского в Киеве</a>
+                                    </div>
+                                </div>
+                                <div class="school-location-block">
+                                    <span class="school-location-icon"><i class="fa fa-map-marker-alt"></i></span>
+                                    <span class="school-location">Украина, Киев</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev rounded" href="#miniCarouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-icon"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+    </a>
+    <a class="carousel-control-next rounded" href="#miniCarouselControls" role="button" data-slide="next">
+        <span class="carousel-control-icon rounded"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+    </a>
+</div>
+
+<script src="jquery/jquery-3.2.1.min.js"></script>
+<script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+<script src="scripts/common.js"></script>
+</body>
+</html>

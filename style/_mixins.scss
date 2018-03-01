@@ -1,0 +1,71 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style : normal;
+  src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+  url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+  url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+  url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+  url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('../fonts/Roboto/RobotoRegular/Roboto-Regular.eot');
+  src: url('../fonts/Roboto/RobotoRegular/Roboto-Regular.eot') format('embedded-opentype'),
+  url('../fonts/Roboto/RobotoRegular/Roboto-Regular.woff2') format('woff2'),
+  url('../fonts/Roboto/RobotoRegular/Roboto-Regular.woff') format('woff'),
+  url('../fonts/Roboto/RobotoRegular/Roboto-Regular.ttf') format('truetype'),
+  url('../fonts/Roboto/RobotoRegular/Roboto-Regular.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'RobotoThin';
+  src: url('../fonts/Roboto/RobotoThin/Roboto-Thin.eot');
+  src: url('../fonts/Roboto/RobotoThin/Roboto-Thin.eot') format('embedded-opentype'),
+  url('../fonts/Roboto/RobotoThin/Roboto-Thin.woff2') format('woff2'),
+  url('../fonts/Roboto/RobotoThin/Roboto-Thin.woff') format('woff'),
+  url('../fonts/Roboto/RobotoThin/Roboto-Thin.ttf') format('truetype'),
+  url('../fonts/Roboto/RobotoThin/Roboto-Thin.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('../fonts/Roboto/RobotoLight/Roboto-Light.eot');
+  src: url('../fonts/Roboto/RobotoLight/Roboto-Light.eot') format('embedded-opentype'),
+  url('../fonts/Roboto/RobotoLight/Roboto-Light.woff2') format('woff2'),
+  url('../fonts/Roboto/RobotoLight/Roboto-Light.woff') format('woff'),
+  url('../fonts/Roboto/RobotoLight/Roboto-Light.ttf') format('truetype'),
+  url('../fonts/Roboto/RobotoLight/Roboto-Light.svg') format('svg');
+}
+
+
+
+@mixin font-RobotoRegular($size: 14px, $lh: 14px){
+  font-family: 'RobotoRegular', 'Open Sans', sans-serif;
+  @if $size { font-size: $size; }
+  @if $lh { line-height: $lh; }
+}
+
+@mixin font-RobotoThin($size: 23px, $lh: 30px){
+  font-family: 'RobotoThin', 'Open Sans', sans-serif;
+  @if $size { font-size: $size; }
+  @if $lh { line-height: $lh; }
+}
+
+@mixin font-RobotoLight($size: 14px, $lh: 14px){
+  font-family: 'RobotoLight', 'Open Sans', sans-serif;
+  @if $size { font-size: $size; }
+  @if $lh { line-height: $lh; }
+}
+
+
+
+
